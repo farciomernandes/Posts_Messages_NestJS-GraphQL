@@ -1,0 +1,10 @@
+{
+    "type": "sqlite",
+    "password": "node",
+    "database": "data/dev.db",
+    "migrations": [ "./src/db/migrations/*.ts"],
+    "cli": {
+      "migrationsDir": "./src/db/migrations"
+  },
+  "entities": ["./src/db/models/*.ts"]
+}
